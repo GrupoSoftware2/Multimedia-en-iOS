@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB8C98061E9DC2190060C3E9 /* sonido.wav in Resources */ = {isa = PBXBuildFile; fileRef = FB8C98051E9DC2190060C3E9 /* sonido.wav */; };
+		FB8C98081E9DC2280060C3E9 /* small.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FB8C98071E9DC2280060C3E9 /* small.mp4 */; };
+		FB8C980A1E9DCBBC0060C3E9 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8C98091E9DCBBC0060C3E9 /* WebViewController.swift */; };
 		FBEE81A41E9DAA8900F48DE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEE81A31E9DAA8900F48DE7 /* AppDelegate.swift */; };
 		FBEE81A61E9DAA8900F48DE7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEE81A51E9DAA8900F48DE7 /* ViewController.swift */; };
 		FBEE81A91E9DAA8900F48DE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBEE81A71E9DAA8900F48DE7 /* Main.storyboard */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FB8C98051E9DC2190060C3E9 /* sonido.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sonido.wav; sourceTree = "<group>"; };
+		FB8C98071E9DC2280060C3E9 /* small.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = small.mp4; sourceTree = "<group>"; };
+		FB8C98091E9DCBBC0060C3E9 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		FBEE81A01E9DAA8900F48DE7 /* Multimedia en iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Multimedia en iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBEE81A31E9DAA8900F48DE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBEE81A51E9DAA8900F48DE7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,12 +60,15 @@
 		FBEE81A21E9DAA8900F48DE7 /* Multimedia en iOS */ = {
 			isa = PBXGroup;
 			children = (
+				FB8C98071E9DC2280060C3E9 /* small.mp4 */,
 				FBEE81A31E9DAA8900F48DE7 /* AppDelegate.swift */,
 				FBEE81A51E9DAA8900F48DE7 /* ViewController.swift */,
 				FBEE81A71E9DAA8900F48DE7 /* Main.storyboard */,
 				FBEE81AA1E9DAA8900F48DE7 /* Assets.xcassets */,
 				FBEE81AC1E9DAA8900F48DE7 /* LaunchScreen.storyboard */,
+				FB8C98051E9DC2190060C3E9 /* sonido.wav */,
 				FBEE81AF1E9DAA8900F48DE7 /* Info.plist */,
+				FB8C98091E9DCBBC0060C3E9 /* WebViewController.swift */,
 			);
 			path = "Multimedia en iOS";
 			sourceTree = "<group>";
@@ -96,6 +105,7 @@
 				TargetAttributes = {
 					FBEE819F1E9DAA8700F48DE7 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 238YUUWH47;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -124,7 +134,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBEE81AE1E9DAA8900F48DE7 /* LaunchScreen.storyboard in Resources */,
+				FB8C98081E9DC2280060C3E9 /* small.mp4 in Resources */,
 				FBEE81AB1E9DAA8900F48DE7 /* Assets.xcassets in Resources */,
+				FB8C98061E9DC2190060C3E9 /* sonido.wav in Resources */,
 				FBEE81A91E9DAA8900F48DE7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBEE81A61E9DAA8900F48DE7 /* ViewController.swift in Sources */,
+				FB8C980A1E9DCBBC0060C3E9 /* WebViewController.swift in Sources */,
 				FBEE81A41E9DAA8900F48DE7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,9 +271,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 238YUUWH47;
 				INFOPLIST_FILE = "Multimedia en iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "pe.ourlimm.Multimedia-en-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "pe.ourlimmdev.Multimedia-en-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -270,9 +285,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 238YUUWH47;
 				INFOPLIST_FILE = "Multimedia en iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "pe.ourlimm.Multimedia-en-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "pe.ourlimmdev.Multimedia-en-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -297,6 +314,7 @@
 				FBEE81B41E9DAA8900F48DE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
