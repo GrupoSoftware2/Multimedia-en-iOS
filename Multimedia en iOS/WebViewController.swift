@@ -16,12 +16,25 @@ class WebViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         
-        let url = URL(string: "https://www.google.com.pe")
+        //let url = URL(string: "https://www.google.com.pe")
         
-        let request = URLRequest(url: url!)
+        //let request = URLRequest(url: url!)
         
-        webView.loadRequest(request)
+        //webView.loadRequest(request)
         
+        //HTML String
+        
+        var htmlString = "<h1>Hola Mundo </h1>"
+        
+        webView.loadHTMLString(htmlString, baseURL: nil)
+        
+        
+        //HTML LOCAL
+        
+        //let path = Bundle.main.path(forResource: "hola.html", ofType: nil)
+        //let url = URL(fileURLWithPath: path!)
+        //let request = URLRequest(url: url)
+        //webView.loadRequest(request)
     }
 
     override func didReceiveMemoryWarning() {
